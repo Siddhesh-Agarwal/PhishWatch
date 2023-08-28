@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "phishwatch"
+version = "0.1.0"
+description = ""
+authors = ["Siddhesh Agarwal <siddhesh.agarwal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.102.0"
+python-whois = "^0.8.0"
+pyopenssl = "^23.2.0"
+python-dotenv = "^1.0.0"
+pymongo = "^4.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
